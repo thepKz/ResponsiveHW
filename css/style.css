@@ -1,0 +1,49 @@
+/* Mobile View */
+body {
+    font-family: 'Arial', sans-serif;
+    max-width: 100%;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .column {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .column img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Tablet View (Query #1) */
+  @media screen and (min-width: 772px) {
+    .column {
+      width: 45%;
+      margin: 0 2.5%;
+      box-sizing: border-box;
+    }
+  
+    .column img {
+      max-height: 30vh;
+    }
+  }
+  
+  /* Large Screen View (Query #2) */
+  @media screen and (min-width: 998px) {
+    .column {
+      width: 30%;
+      margin: 0 1.66667%;
+    }
+  }
+  
